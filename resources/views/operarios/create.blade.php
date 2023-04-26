@@ -45,6 +45,10 @@
                                 <label for="telefono" class="form-label telefono">Telefono:</label>
                                 <input type="text" maxlength="10" class="form-control" name="telefono" id="telefono" oninput="maxLengthTelefono(this)" value="{{ old('telefono') }}" required>
                             </div>
+                             <div class="">
+                                <label for="telefono2" class="form-label telefono">Telefono2:</label>
+                                <input type="text" maxlength="10" class="form-control" name="telefono2" id="telefono2" oninput="maxLengthTelefono(this)" value="{{ old('telefono') }}" required>
+                            </div>
                         </div>
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre:</label>
